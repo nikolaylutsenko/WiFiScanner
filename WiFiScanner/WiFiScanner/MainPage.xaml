@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WiFiScanner.MainPage">
+
+    <StackLayout>
+        <StackLayout  Orientation="Horizontal" Spacing="5">
+            <Button Text="Scan" BackgroundColor="LawnGreen" TextColor="White"  WidthRequest="200" Clicked="OnScanClicked"/>
+            <Button Text="Stop" BackgroundColor="OrangeRed" TextColor="White" WidthRequest="200" Clicked="OnStopClicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
